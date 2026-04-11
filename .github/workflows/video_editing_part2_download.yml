@@ -3,8 +3,7 @@ name: VIDEO EDITING PART 2 - DOWNLOAD & ROTATE
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *'    # 7:30 AM IST
-    - cron: '0 10 * * *'   # 3:30 PM IST
+    - cron: '0 6 * * *'    # 11:30 AM IST
     - cron: '0 18 * * *'   # 11:30 PM IST
 
 jobs:
